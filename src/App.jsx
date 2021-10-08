@@ -1,11 +1,16 @@
 import React from "react";
+import Footer from "./shared/footer";
+import Header from "./shared/header";
+import Main from "./components/main";
 
 const App = () => {
-    return (
-        <>
-            <h1>Welcome to React-Webpack-Starter template</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
+    </>
+  );
+};
 
 export default App;
